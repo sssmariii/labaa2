@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QRadioButton" name="rb1_green">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Зелёный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rb1_white">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Белый</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rb1_red">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Красный</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QRadioButton" name="rb2_red">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Красный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rb2_green">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Зелёный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rb2_white">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Белый</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QRadioButton" name="rb3_red">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Красный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rb3_green">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Зелёный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rb3_white">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>99</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Белый</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_draw">
+      <property name="text">
+       <string>Нарисовать</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_result">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>36</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
